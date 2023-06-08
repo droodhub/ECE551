@@ -1,0 +1,210 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/examples
+T_opt
+!s110 1667573190
+VKADkZYJ8m8^GVPC[kUEA92
+04 20 4 work balance_cntrl_chk_tb fast 0
+=1-6c2b59d2121c-636525c5-30d-3378
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OE;O;10.3c;59
+R0
+T_opt1
+!s110 1667573335
+V>EYe8zJmRH2H`TBf9zQm?3
+04 25 4 work balance_cntrl_chk_tb_noah fast 0
+=1-6c2b59d2121c-63652657-8-28d0
+R1
+n@_opt1
+R2
+R0
+vbalance_cntrl
+Z3 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 2G<oa?K8SaM2e5GkjNiQ03
+IMEb3R>z<]?VVIR<0I1]hA2
+!s105 balance_cntrl_sv_unit
+S1
+Z5 dI:/ECE551/Exercise_17
+w1667572968
+8I:/ECE551/Exercise_17/balance_cntrl.sv
+FI:/ECE551/Exercise_17/balance_cntrl.sv
+L0 1
+Z6 OE;L;10.3c;59
+!s108 1667593314.398000
+!s107 I:/ECE551/Exercise_17/balance_cntrl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_17/balance_cntrl.sv|
+!i113 0
+Z7 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vbalance_cntrl_chk_tb
+R3
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 B>ORh8@^]Y7@[h4DYG50a1
+IdWgFdo?he2VC_:PoCzZ^83
+!s105 balance_cntrl_chk_tb_sv_unit
+S1
+R5
+w1667573454
+8I:/ECE551/Exercise_17/balance_cntrl_chk_tb.sv
+FI:/ECE551/Exercise_17/balance_cntrl_chk_tb.sv
+L0 1
+R6
+!s108 1667593314.018000
+!s107 I:/ECE551/Exercise_17/balance_cntrl_chk_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_17/balance_cntrl_chk_tb.sv|
+!i113 0
+R7
+vbalance_cntrl_chk_tb_noah
+R3
+Z8 !s110 1667573322
+!i10b 1
+!s100 H4<OVPe56K77@XQKe_Hb?1
+IbUH0ZXUGWhYmfG9OJ^NLo0
+R4
+!s105 balance_cntrl_chk_tb_noah_sv_unit
+S1
+R5
+w1667573147
+8I:/ECE551/Exercise_17/balance_cntrl_chk_tb_noah.sv
+FI:/ECE551/Exercise_17/balance_cntrl_chk_tb_noah.sv
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1667573322.149000
+!s107 I:/ECE551/Exercise_17/balance_cntrl_chk_tb_noah.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_17/balance_cntrl_chk_tb_noah.sv|
+!i113 0
+R7
+vbalance_cntrl_noah
+R3
+R8
+!i10b 1
+!s100 e2n;_MA;;Ek1d1IH_`Mm:0
+In8U=ze_=cmcagWj;m7@TY3
+R4
+!s105 balance_cntrl_noah_sv_unit
+S1
+R5
+w1667572962
+8I:/ECE551/Exercise_17/balance_cntrl_noah.sv
+FI:/ECE551/Exercise_17/balance_cntrl_noah.sv
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1667573322.484000
+!s107 I:/ECE551/Exercise_17/balance_cntrl_noah.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_17/balance_cntrl_noah.sv|
+!i113 0
+R7
+vPID
+R3
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 Im`0GTDJWVDgc0>N3Qe4C1
+I:c<oaYPfLPG9T?7DiGAMz0
+!s105 PID_sv_unit
+S1
+R5
+w1666367290
+8I:/ECE551/Exercise_17/PID.sv
+FI:/ECE551/Exercise_17/PID.sv
+L0 1
+R6
+!s108 1667593314.717000
+!s107 I:/ECE551/Exercise_17/PID.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_17/PID.sv|
+!i113 0
+R7
+n@p@i@d
+vsegway_math
+R3
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 UIVHIIJHkFP_^;@dIVcoT1
+IoTEX]CN]ZfZXf3ogGEA7T0
+!s105 SegwayMath_sv_unit
+S1
+R5
+w1664739474
+8I:/ECE551/Exercise_17/SegwayMath.sv
+FI:/ECE551/Exercise_17/SegwayMath.sv
+L0 1
+R6
+!s108 1667593315.038000
+!s107 I:/ECE551/Exercise_17/SegwayMath.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_17/SegwayMath.sv|
+!i113 0
+R7
+vSegwayMath
+R3
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 84z4=f8AEJ4j;nbnzNFh63
+I5mFl]7kDm?;PI6;NSQAc01
+Z9 !s105 SegwayMathNoah_sv_unit
+S1
+R5
+w1667519809
+8C:/Users/apmcavoy/Downloads/SegwayMathNoah.sv
+FC:/Users/apmcavoy/Downloads/SegwayMathNoah.sv
+L0 1
+R6
+!s108 1667521062.453000
+!s107 C:/Users/apmcavoy/Downloads/SegwayMathNoah.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/apmcavoy/Downloads/SegwayMathNoah.sv|
+!i113 0
+R7
+n@segway@math
+vSegwayMathNoah
+R3
+!s110 1667573472
+!i10b 1
+!s100 fdP>ofggBQReA29GWheJU2
+I_6cEaGh@ac2X>@ER[gBRi0
+R4
+R9
+S1
+R5
+w1667572869
+8I:/ECE551/Exercise_17/SegwayMathNoah.sv
+FI:/ECE551/Exercise_17/SegwayMathNoah.sv
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1667573472.377000
+!s107 I:/ECE551/Exercise_17/SegwayMathNoah.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_17/SegwayMathNoah.sv|
+!i113 0
+R7
+n@segway@math@noah

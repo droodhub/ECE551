@@ -1,0 +1,111 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mult_accum
+Version: T-2022.03-SP3
+Date   : Mon Nov  7 10:12:35 2022
+****************************************
+
+Operating Conditions: tt0p85v25c   Library: saed32lvt_tt0p85v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: accum_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: accum_reg[63]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mult_accum         16000                 saed32lvt_tt0p85v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  accum_reg[0]/CLK (DFFSSRX1_LVT)          0.00       0.00 r
+  accum_reg[0]/QN (DFFSSRX1_LVT)           0.07       0.07 f
+  U737/Y (NOR2X0_LVT)                      0.06       0.13 r
+  add_37/U1_1/CO (FADDX1_LVT)              0.08       0.21 r
+  add_37/U1_2/CO (FADDX1_LVT)              0.08       0.29 r
+  add_37/U1_3/CO (FADDX1_LVT)              0.08       0.37 r
+  add_37/U1_4/CO (FADDX1_LVT)              0.08       0.45 r
+  add_37/U1_5/CO (FADDX1_LVT)              0.08       0.53 r
+  add_37/U1_6/CO (FADDX1_LVT)              0.08       0.62 r
+  add_37/U1_7/CO (FADDX1_LVT)              0.08       0.70 r
+  add_37/U1_8/CO (FADDX1_LVT)              0.08       0.78 r
+  add_37/U1_9/CO (FADDX1_LVT)              0.08       0.86 r
+  add_37/U1_10/CO (FADDX1_LVT)             0.08       0.94 r
+  add_37/U1_11/CO (FADDX1_LVT)             0.08       1.02 r
+  add_37/U1_12/CO (FADDX1_LVT)             0.08       1.11 r
+  add_37/U1_13/CO (FADDX1_LVT)             0.08       1.19 r
+  add_37/U1_14/CO (FADDX1_LVT)             0.08       1.27 r
+  add_37/U1_15/CO (FADDX1_LVT)             0.08       1.35 r
+  add_37/U1_16/CO (FADDX1_LVT)             0.08       1.43 r
+  add_37/U1_17/CO (FADDX1_LVT)             0.08       1.51 r
+  add_37/U1_18/CO (FADDX1_LVT)             0.08       1.59 r
+  add_37/U1_19/CO (FADDX1_LVT)             0.08       1.68 r
+  add_37/U1_20/CO (FADDX1_LVT)             0.08       1.76 r
+  add_37/U1_21/CO (FADDX1_LVT)             0.08       1.84 r
+  add_37/U1_22/CO (FADDX1_LVT)             0.08       1.92 r
+  add_37/U1_23/CO (FADDX1_LVT)             0.08       2.00 r
+  add_37/U1_24/CO (FADDX1_LVT)             0.08       2.08 r
+  add_37/U1_25/CO (FADDX1_LVT)             0.08       2.16 r
+  add_37/U1_26/CO (FADDX1_LVT)             0.08       2.25 r
+  add_37/U1_27/CO (FADDX1_LVT)             0.08       2.33 r
+  add_37/U1_28/CO (FADDX1_LVT)             0.08       2.41 r
+  add_37/U1_29/CO (FADDX1_LVT)             0.08       2.49 r
+  add_37/U1_30/CO (FADDX1_LVT)             0.08       2.57 r
+  add_37/U1_31/CO (FADDX1_LVT)             0.08       2.66 r
+  U552/Y (NAND2X0_LVT)                     0.04       2.69 f
+  U550/Y (OR2X1_LVT)                       0.06       2.75 f
+  U548/Y (OR2X1_LVT)                       0.05       2.80 f
+  U546/Y (OR2X1_LVT)                       0.05       2.85 f
+  U544/Y (OR2X1_LVT)                       0.05       2.90 f
+  U542/Y (OR2X1_LVT)                       0.05       2.95 f
+  U540/Y (OR2X1_LVT)                       0.05       3.00 f
+  U538/Y (OR2X1_LVT)                       0.05       3.05 f
+  U536/Y (OR2X1_LVT)                       0.05       3.10 f
+  U534/Y (OR2X1_LVT)                       0.05       3.15 f
+  U532/Y (OR2X1_LVT)                       0.05       3.20 f
+  U530/Y (OR2X1_LVT)                       0.05       3.25 f
+  U528/Y (OR2X1_LVT)                       0.05       3.30 f
+  U526/Y (OR2X1_LVT)                       0.05       3.35 f
+  U524/Y (OR2X1_LVT)                       0.05       3.40 f
+  U522/Y (OR2X1_LVT)                       0.05       3.45 f
+  U520/Y (OR2X1_LVT)                       0.05       3.50 f
+  U518/Y (OR2X1_LVT)                       0.05       3.55 f
+  U516/Y (OR2X1_LVT)                       0.05       3.60 f
+  U514/Y (OR2X1_LVT)                       0.05       3.65 f
+  U512/Y (OR2X1_LVT)                       0.05       3.70 f
+  U510/Y (OR2X1_LVT)                       0.05       3.76 f
+  U508/Y (OR2X1_LVT)                       0.05       3.81 f
+  U506/Y (OR2X1_LVT)                       0.05       3.86 f
+  U504/Y (OR2X1_LVT)                       0.05       3.91 f
+  U502/Y (OR2X1_LVT)                       0.05       3.96 f
+  U500/Y (OR2X1_LVT)                       0.05       4.01 f
+  U498/Y (OR2X1_LVT)                       0.05       4.06 f
+  U496/Y (OR2X1_LVT)                       0.05       4.11 f
+  U494/Y (OR2X1_LVT)                       0.05       4.16 f
+  U492/Y (OR2X1_LVT)                       0.05       4.20 f
+  U738/Y (XOR2X1_LVT)                      0.08       4.28 r
+  accum_reg[63]/RSTB (DFFSSRX1_LVT)        0.02       4.30 r
+  data arrival time                                   4.30
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (ideal)              0.00       5.00
+  accum_reg[63]/CLK (DFFSSRX1_LVT)         0.00       5.00 r
+  library setup time                      -0.06       4.94
+  data required time                                  4.94
+  -----------------------------------------------------------
+  data required time                                  4.94
+  data arrival time                                  -4.30
+  -----------------------------------------------------------
+  slack (MET)                                         0.64
+
+
+1

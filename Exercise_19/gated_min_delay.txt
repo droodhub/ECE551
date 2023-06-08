@@ -1,0 +1,47 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : mult_accum
+Version: T-2022.03-SP3
+Date   : Mon Nov  7 10:12:46 2022
+****************************************
+
+Operating Conditions: tt0p85v25c   Library: saed32lvt_tt0p85v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: en_stg2_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: clk_en_accum_reg
+            (positive level-sensitive latch clocked by clk')
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mult_accum         16000                 saed32lvt_tt0p85v25c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (ideal)              0.00       5.00
+  en_stg2_reg/CLK (DFFX1_LVT)              0.00       5.00 r
+  en_stg2_reg/Q (DFFX1_LVT)                0.07       5.07 r
+  clk_en_accum_reg/D (LATCHX1_LVT)         0.01       5.08 r
+  data arrival time                                   5.08
+
+  clock clk' (fall edge)                   5.00       5.00
+  clock network delay (ideal)              0.00       5.00
+  clk_en_accum_reg/CLK (LATCHX1_LVT)       0.00       5.00 f
+  library hold time                       -0.02       4.98
+  data required time                                  4.98
+  -----------------------------------------------------------
+  data required time                                  4.98
+  data arrival time                                  -5.08
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+1
