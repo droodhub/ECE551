@@ -1,0 +1,29 @@
+I:/ECE551/Exercise_15/balance_cntrl.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_15/balance_cntrl.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module balance_cntrl
+
+Top level modules:
+	balance_cntrl
+
+} {} {}} I:/ECE551/Exercise_15/PID_fastsim_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_15/PID_fastsim_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module PID_dbg_tb
+
+Top level modules:
+	PID_dbg_tb
+
+} {} {}} I:/ECE551/Exercise_15/PID.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_15/PID.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module PID
+
+Top level modules:
+	PID
+
+} {} {}} I:/ECE551/Exercise_15/SegwayMath.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_15/SegwayMath.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module segway_math
+
+Top level modules:
+	segway_math
+
+} {} {}}

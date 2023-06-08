@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/examples
+T_opt
+!s110 1667522452
+VOl7MW<PU=4mG7FAeYTQZf0
+04 12 4 work SPI_mnrch_tb fast 0
+=1-6c2b59d2123c-63645f93-373-30e0
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.3c;59
+R0
+vSPI_iNEMO1
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 `7jK;YiD_:4RKzAb1i=BE0
+IC;>3RaKAYk[bDDijNm=4K2
+!s105 SPI_iNEMO1_sv_unit
+S1
+Z3 dI:/ECE551/Exercise_16
+w1666622830
+8I:/ECE551/Exercise_16/SPI_iNEMO1.sv
+FI:/ECE551/Exercise_16/SPI_iNEMO1.sv
+L0 1
+Z4 OE;L;10.3c;59
+!s108 1667576683.955000
+!s107 I:/ECE551/Exercise_16/SPI_iNEMO1.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_16/SPI_iNEMO1.sv|
+!i113 0
+Z5 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@s@p@i_i@n@e@m@o1
+vSPI_mnrch
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 nS2__cL5b6?[<2CJA1Mmb2
+IaGNf0zHjz5Yho?j`QkBbA2
+!s105 SPI_mnrch_sv_unit
+S1
+R3
+w1666972034
+8I:/ECE551/Exercise_16/SPI_mnrch.sv
+FI:/ECE551/Exercise_16/SPI_mnrch.sv
+L0 1
+R4
+!s108 1667576684.271000
+!s107 I:/ECE551/Exercise_16/SPI_mnrch.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_16/SPI_mnrch.sv|
+!i113 0
+R5
+n@s@p@i_mnrch
+vSPI_mnrch_tb
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 GS__Ym<chF[m0Mf2G:YNm3
+IB2e5g286RC9k2VO73;oAA0
+!s105 SPI_mnrch_tb_sv_unit
+S1
+R3
+w1667576680
+8I:/ECE551/Exercise_16/SPI_mnrch_tb.sv
+FI:/ECE551/Exercise_16/SPI_mnrch_tb.sv
+L0 1
+R4
+!s108 1667576684.600000
+!s107 I:/ECE551/Exercise_16/SPI_mnrch_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_16/SPI_mnrch_tb.sv|
+!i113 0
+R5
+n@s@p@i_mnrch_tb

@@ -1,0 +1,22 @@
+I:/ECE551/Exercise_13/UART_tx.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_13/UART_tx.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module UART_tx
+
+Top level modules:
+	UART_tx
+
+} {} {}} I:/ECE551/Exercise_13/UART_rx.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_13/UART_rx.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module UART_rx
+
+Top level modules:
+	UART_rx
+
+} {} {}} I:/ECE551/Exercise_13/UART_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_13/UART_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module UART_tb
+
+Top level modules:
+	UART_tb
+
+} {} {}}

@@ -1,0 +1,25 @@
+# Compile of UART_tx.sv was successful.
+# Compile of UART_rx.sv was successful.
+# Compile of UART_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -novopt work.UART_tb
+# vsim -gui I:\ECE551\Exercise_13\ex13.mpf 
+# Start time: 20:51:51 on Oct 17,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing I:/ECE551/Exercise_13/work.UART_tb
+# Loading sv_std.std
+# Loading work.UART_tb
+# Refreshing I:/ECE551/Exercise_13/work.UART_tx
+# Loading work.UART_tx
+# Refreshing I:/ECE551/Exercise_13/work.UART_rx
+# Loading work.UART_rx
+# SymInitialize: The parameter is incorrect.
+# 
+# 
+run -all
+# YAHOO! All tests passed.
+# ** Note: $stop    : I:/ECE551/Exercise_13/UART_tb.sv(44)
+#    Time: 600075 ns  Iteration: 1  Instance: /UART_tb
+# Break in Module UART_tb at I:/ECE551/Exercise_13/UART_tb.sv line 44
+# Closing project I:/ECE551/Exercise_13/ex13.mpf

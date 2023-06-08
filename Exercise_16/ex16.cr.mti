@@ -1,0 +1,22 @@
+I:/ECE551/Exercise_16/SPI_mnrch.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_16/SPI_mnrch.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module SPI_mnrch
+
+Top level modules:
+	SPI_mnrch
+
+} {} {}} I:/ECE551/Exercise_16/SPI_mnrch_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_16/SPI_mnrch_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module SPI_mnrch_tb
+
+Top level modules:
+	SPI_mnrch_tb
+
+} {} {}} I:/ECE551/Exercise_16/SPI_iNEMO1.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_16/SPI_iNEMO1.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module SPI_iNEMO1
+
+Top level modules:
+	SPI_iNEMO1
+
+} {} {}}
