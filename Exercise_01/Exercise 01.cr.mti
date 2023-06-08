@@ -1,0 +1,15 @@
+I:/ECE551/Exercise_01/counter_tb.v {1 {vlog -work work -vopt -stats=none I:/ECE551/Exercise_01/counter_tb.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module up_dwn_tb
+
+Top level modules:
+	up_dwn_tb
+
+} {} {}} I:/ECE551/Exercise_01/counter.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_01/counter.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}}

@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/examples
+vdff
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 6=9kC^I]@0c[cYOK7XNXE3
+I9F0E`[J>Q3e4LE>Qoc5YH1
+Z1 dI:/ECE551/Exercise_03
+Z2 w1663166885
+8I:/ECE551/Exercise_03/dff.v
+FI:/ECE551/Exercise_03/dff.v
+L0 1
+Z3 OE;L;10.3c;59
+!s108 1663168249.575000
+!s107 I:/ECE551/Exercise_03/dff.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE551/Exercise_03/dff.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vsynch_detect
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 S>PM<oV`95H2T8I=7SWFM3
+I^aVibPK8RzF3B8I]^V^;J0
+R1
+w1663168949
+8I:/ECE551/Exercise_03/synch_detect.v
+FI:/ECE551/Exercise_03/synch_detect.v
+L0 1
+R3
+!s108 1663168951.450000
+!s107 I:/ECE551/Exercise_03/synch_detect.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE551/Exercise_03/synch_detect.v|
+!i113 0
+R4
+vsynch_detect_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 B@@BaB_<zzLRb5F`aC3Kg3
+I8[NUHd1`aR_?AVnB>ZVWQ2
+R1
+R2
+8I:/ECE551/Exercise_03/synch_detect_tb.v
+FI:/ECE551/Exercise_03/synch_detect_tb.v
+L0 1
+R3
+!s108 1663168249.140000
+!s107 I:/ECE551/Exercise_03/synch_detect_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE551/Exercise_03/synch_detect_tb.v|
+!i113 0
+R4

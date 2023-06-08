@@ -1,0 +1,69 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/examples
+T_opt
+!s110 1662735223
+VJoMH]4ffCTlj`42J[JbD[0
+04 7 4 work counter fast 0
+=1-6c2b59d19975-631b5376-272-cd8
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OE;O;10.3c;59
+R0
+T_opt1
+!s110 1662735511
+Vh5Fh5[FY1M<?[2_313OXP0
+04 9 4 work up_dwn_tb fast 0
+=1-6c2b59d19975-631b5496-27b-2f24
+R1
+n@_opt1
+R2
+R0
+vcounter
+DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 TFDZ]9Ro=mCjXLOACddZz1
+IeJno?kMOG^I=b8ijc@`ZP0
+!s105 counter_sv_unit
+S1
+Z4 dI:/ECE551/Exercise_01
+w1662735134
+8I:/ECE551/Exercise_01/counter.sv
+FI:/ECE551/Exercise_01/counter.sv
+L0 1
+Z5 OE;L;10.3c;59
+!s108 1662735942.161000
+!s107 I:/ECE551/Exercise_01/counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_01/counter.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vup_dwn_tb
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 GHBHlBz[46I>m<^HQfE3P3
+IV233[i9?QP>Xl:F[8iTGb2
+R4
+w1662734941
+8I:/ECE551/Exercise_01/counter_tb.v
+FI:/ECE551/Exercise_01/counter_tb.v
+L0 1
+R5
+!s108 1662735941.859000
+!s107 I:/ECE551/Exercise_01/counter_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE551/Exercise_01/counter_tb.v|
+!i113 0
+o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

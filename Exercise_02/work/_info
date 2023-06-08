@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/examples
+T_opt
+!s110 1662996080
+V^Ej67WMaC;9ihPBG?WDkD0
+04 13 4 work ring_osc_test fast 0
+=1-6c2b59d2121c-631f4e6f-2fe-3614
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.3c;59
+vring_osc
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 @6B@`0QNn^7YnhNDE2aM^1
+IPFQ;AaXIMgkjLo>PonOTD0
+!s105 ring_osc_sv_unit
+S1
+Z2 dI:/ECE551/Exercise_02
+w1662995512
+8I:/ECE551/Exercise_02/ring_osc.sv
+FI:/ECE551/Exercise_02/ring_osc.sv
+L0 1
+Z3 OE;L;10.3c;59
+!s108 1662995806.705000
+!s107 I:/ECE551/Exercise_02/ring_osc.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_02/ring_osc.sv|
+!i113 0
+Z4 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vring_osc_test
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 l9kEM5U??IS8OO2kO=jJW3
+Id?Qhh92?`:B2igAXBnJlc0
+!s105 ring_osc_tb_sv_unit
+S1
+R2
+w1662995418
+8I:/ECE551/Exercise_02/ring_osc_tb.sv
+FI:/ECE551/Exercise_02/ring_osc_tb.sv
+L0 1
+R3
+!s108 1662995806.390000
+!s107 I:/ECE551/Exercise_02/ring_osc_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_02/ring_osc_tb.sv|
+!i113 0
+R4
