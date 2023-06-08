@@ -1,0 +1,15 @@
+I:/ECE551/Exercise_08/SegwayMath.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_08/SegwayMath.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module segway_math
+
+Top level modules:
+	segway_math
+
+} {} {}} I:/ECE551/Exercise_08/SegwayMath_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_08/SegwayMath_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module segway_math_tb
+
+Top level modules:
+	segway_math_tb
+
+} {} {}}

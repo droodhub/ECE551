@@ -1,0 +1,8 @@
+I:/ECE551/Exercise_09/hw2_prob5.sv {1 {vlog -work work -vopt -sv -stats=none {I:\ECE551\Exercise_09\hw2_prob5.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module latch
+
+Top level modules:
+	latch
+
+} {} {}}
