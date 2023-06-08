@@ -1,0 +1,15 @@
+I:/ECE551/Exercise_04/circuit.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_04/circuit.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module circuit
+
+Top level modules:
+	circuit
+
+} {} {}} I:/ECE551/Exercise_04/circuit_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_04/circuit_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module circuit_tb
+
+Top level modules:
+	circuit_tb
+
+} {} {}}

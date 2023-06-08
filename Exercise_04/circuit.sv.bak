@@ -1,0 +1,19 @@
+module circuit(input d, input clk, output q);
+
+wire md, mq, sd;
+
+notif1 #1 triOne(md, d, !clk);
+
+not (mq, md);
+not(weak0, weak1) (md, mq);
+ 
+notif1 #1 triTwo(sd, mq, clk);
+
+not(q, mq);
+not(weak0, weak1) (sd, q);
+
+
+
+
+
+endmodule

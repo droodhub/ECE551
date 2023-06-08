@@ -1,0 +1,17 @@
+I:/ECE551/Exercise_06/saturate.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_06/saturate.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module saturate
+
+Top level modules:
+	saturate
+
+} {} {}} I:/ECE551/Exercise_06/saturate_tb.sv {2 {vlog -work work -vopt -sv -stats=none I:/ECE551/Exercise_06/saturate_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module saturate_tb
+** Warning: I:/ECE551/Exercise_06/saturate_tb.sv(65): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	saturate_tb
+
+} {} {}}

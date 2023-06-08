@@ -1,0 +1,65 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/examples
+T_opt
+!s110 1663342678
+V]j@j@eoG`nl]k`ESUe=RU0
+04 10 4 work circuit_tb fast 0
+=1-6c2b59d2121c-63249856-f2-40c
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.3c;59
+R0
+vcircuit
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1663343041
+!i10b 1
+!s100 gO]`0hl8:@Y7g=^TO<V8W0
+IIPn5M]^5a?:jRJAz8hiTV0
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 circuit_sv_unit
+S1
+Z4 dI:/ECE551/Exercise_04
+w1663341167
+8I:/ECE551/Exercise_04/circuit.sv
+FI:/ECE551/Exercise_04/circuit.sv
+L0 1
+Z5 OE;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1663343041.075000
+!s107 I:/ECE551/Exercise_04/circuit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_04/circuit.sv|
+!i113 0
+Z6 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vcircuit_tb
+R1
+R2
+!i10b 1
+!s100 97>8eXhI;on8D^=fd`Y8b0
+I;7ISVShiP1M`EPF=oHbTK2
+R3
+!s105 circuit_tb_sv_unit
+S1
+R4
+w1663343023
+8I:/ECE551/Exercise_04/circuit_tb.sv
+FI:/ECE551/Exercise_04/circuit_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1663343041.433000
+!s107 I:/ECE551/Exercise_04/circuit_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ECE551/Exercise_04/circuit_tb.sv|
+!i113 0
+R6
