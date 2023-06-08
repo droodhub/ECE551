@@ -1,0 +1,22 @@
+a) Does it use a SPI, I2C, or UART interface?
+
+It uses both an SPI and and I2C interface. To use the I2C interface, the CS line must be tied high. 
+To select the SPI interface it must be tied low. They are both used to read/write to the registers.
+
+b) Does the gyro output angular position, or angular rate?
+
+It outputs angular rate. Counterclockwise around the given axis is considered positive rate.
+
+c) If we wanted an output data rate around 200 readings per second does
+it support that?
+
+Yes, it should be supported. It can read up to 1700 samples per second, so 200 should be no problem.
+
+d) How would we synchronize our Verilog with it…how would we know
+it has a new set of measurements ready for us?
+
+It has a register, STATUS_REG that is read by the primary interface. 3 bits in this register,
+	TDA, GDA, and XLDA, are set to 1 if there is new data available for the temperature, gyro,
+	or accelerometer, respectively. GDA is also found in the STATUS_SPIAux register. Depending on
+	the mode of operation, there is also a FIFO register that will assert a flag when the number
+	of unread samples in the register exceeds a certain value(not sure if this is what you were looking for, see page 32 on the datasheet).

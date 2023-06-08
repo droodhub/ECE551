@@ -1,0 +1,29 @@
+I:/ECE551/HW4/Auth_blk_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/HW4/Auth_blk_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module auth_blk_tb
+
+Top level modules:
+	auth_blk_tb
+
+} {} {}} I:/ECE551/HW4/UART_TX.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/HW4/UART_TX.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module UART_tx
+
+Top level modules:
+	UART_tx
+
+} {} {}} I:/ECE551/HW4/auth_SM.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/HW4/auth_SM.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module auth_blk
+
+Top level modules:
+	auth_blk
+
+} {} {}} I:/ECE551/HW4/UART_RX.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/HW4/UART_RX.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module UART_rx
+
+Top level modules:
+	UART_rx
+
+} {} {}}

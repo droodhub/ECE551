@@ -1,0 +1,19 @@
+# Compile of adder_tb.v was successful.
+vsim -gui -novopt work.adder_tb
+# vsim -gui I:\ECE551\HW2\full_adder.mpf 
+# Start time: 20:03:07 on Oct 03,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing I:/ECE551/HW2/work.adder_tb
+# Loading work.adder_tb
+# Loading work.adder
+# SymInitialize: The parameter is incorrect.
+# 
+# 
+run -all
+# YAHOO! All tests passed.
+# ** Note: $stop    : I:/ECE551/HW2/adder_tb.v(35)
+#    Time: 2560 ns  Iteration: 0  Instance: /adder_tb
+# Break in Module adder_tb at I:/ECE551/HW2/adder_tb.v line 35
+# End time: 20:25:03 on Oct 03,2022, Elapsed time: 0:21:56
+# Errors: 0, Warnings: 1

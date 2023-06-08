@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dI:/ECE551/Exercise_09
+vadder
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]Ug:^92>M]MY??F1o81Jd1
+I];n:2IN^eI;O2=IAKMY3T2
+Z1 dI:/ECE551/HW2
+w1664741957
+8I:/ECE551/HW2/adder.v
+FI:/ECE551/HW2/adder.v
+L0 2
+Z2 OE;L;10.3c;59
+!s108 1664743862.068000
+!s107 I:/ECE551/HW2/adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE551/HW2/adder.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vadder_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 0;1MlA@fOnnb>OZI6kee00
+I2CZClNjP6W:@^kVX?Z5U=3
+R1
+w1664744377
+8I:/ECE551/HW2/adder_tb.v
+FI:/ECE551/HW2/adder_tb.v
+L0 1
+R2
+!s108 1664845375.323000
+!s107 I:/ECE551/HW2/adder_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE551/HW2/adder_tb.v|
+!i113 0
+R3

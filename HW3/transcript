@@ -1,0 +1,94 @@
+# Compile of steer_en_SM_shell.sv was successful.
+# Compile of steer_en_SM_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui -novopt work.steer_en_SM_tb
+# vsim 
+# Start time: 20:57:16 on Oct 17,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing I:/ECE551/HW3/work.steer_en_SM_tb
+# Loading work.steer_en_SM_tb
+# Refreshing I:/ECE551/HW3/work.steer_en_SM
+# Loading sv_std.std
+# Loading work.steer_en_SM
+# SymInitialize: The parameter is incorrect.
+# 
+# 
+run -all
+# ERROR: clr_en_steer should be set now, should be in wait for balance state
+# 
+# ** Note: $stop    : I:/ECE551/HW3/steer_en_SM_tb.v(133)
+#    Time: 280 ns  Iteration: 1  Instance: /steer_en_SM_tb
+# Break in Module steer_en_SM_tb at I:/ECE551/HW3/steer_en_SM_tb.v line 133
+# Compile of steer_en_SM_shell.sv was successful.
+# Compile of steer_en_SM_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing I:/ECE551/HW3/work.steer_en_SM_tb
+# Loading work.steer_en_SM_tb
+# Refreshing I:/ECE551/HW3/work.steer_en_SM
+# Loading sv_std.std
+# Loading work.steer_en_SM
+run -all
+# Yahoo! test passed!
+# 
+# However, We did not test that when in normal mode with
+# 
+# steering enabled you transition to the initial state and
+# 
+# assert rider_off if sum_lt_min occurs.  You should test that
+# 
+# Yahoo! test passed!
+# 
+# We are testing that when in normal mode with
+# 
+# steering enabled you transition to the initial state and
+# 
+# assert rider_off if sum_lt_min occurs.  And it passed!
+# 
+# Compile of steer_en_SM_shell.sv was successful.
+# Compile of steer_en_SM_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Break key hit
+# Break in Module steer_en_SM_tb at I:/ECE551/HW3/steer_en_SM_tb.v line 188
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing I:/ECE551/HW3/work.steer_en_SM_tb
+# Loading work.steer_en_SM_tb
+# Refreshing I:/ECE551/HW3/work.steer_en_SM
+# Loading sv_std.std
+# Loading work.steer_en_SM
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading sv_std.std
+# Loading work.steer_en_SM
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading sv_std.std
+# Loading work.steer_en_SM
+run -all
+# Yahoo! test passed!
+# 
+# However, We did not test that when in normal mode with
+# 
+# steering enabled you transition to the initial state and
+# 
+# assert rider_off if sum_lt_min occurs.  You should test that
+# 
+# Yahoo! test passed!
+# 
+# We are testing that when in normal mode with
+# 
+# steering enabled you transition to the initial state and
+# 
+# assert rider_off if sum_lt_min occurs.  And it passed!
+# 
+# Break key hit
+# Break in Module steer_en_SM_tb at I:/ECE551/HW3/steer_en_SM_tb.v line 188
+# End time: 21:14:17 on Oct 17,2022, Elapsed time: 0:17:01
+# Errors: 0, Warnings: 5
